@@ -1,0 +1,157 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url("bg.png");
+  background-size: cover;
+}
+
+#nav1 {
+  width: 80%;
+}
+
+#nav2 {
+  width: 20%;
+}
+
+#mode {
+  border-radius: 15px;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  height: 30px;
+  width: 70px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  color: crimson;
+  background-color: rgb(16, 213, 72);
+}
+
+#mode:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+#navbar {
+  height: 70px;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navcor button {
+  right: 0px;
+}
+
+#navbar p {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+
+#cal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  height: 550px;
+  width: 400px;
+  background-color: indianred;
+  margin-top: 150px;
+  border-radius: 20px;
+  border: 2px solid black;
+  display: flex;
+}
+
+#inpt {
+  height: 200px;
+}
+
+#inpt #btn {
+  height: 50px;
+  width: 150px;
+  font-size: 30px;
+  margin-top: 80px;
+  margin-left: 120px;
+  border-radius: 10px;
+  background-color: lightseagreen;
+}
+
+#reset {
+    height: 50px;
+    width: 150px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 120px;
+    border-radius: 10px;
+    background-color: tomato;
+}
+
+#reset:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    background-color: red;
+    color: white;
+}
+
+#main input {
+  height: 50px;
+  font-size: 25px;
+  border: 3px solid black;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-left: 35px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+  background-color: palegreen;
+  text-align: center;
+}
+
+#main input:hover {
+  border: 3px solid greenyellow;
+}
+
+#main #btn:hover {
+  color: rgb(255, 0, 102);
+  background-color: rgb(4, 255, 205);
+  border: 3px solid rgb(255, 0, 102);
+}
+
+#main #in3:hover {
+  border: 3px solid rgb(25, 0, 255);
+}
+
+#inpt #btn:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+#control {
+    height: 60px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#control button {
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: lightseagreen;
+}
+
+#control button:focus {
+  color: rgb(255, 0, 102);
+  background-color: rgb(4, 255, 205);
+  border: 3px solid rgb(255, 0, 102);
+}
